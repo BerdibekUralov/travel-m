@@ -269,6 +269,12 @@ body { background: var(--white); }
   color: inherit;
 }
 
+.logo{
+  font-size: 26px;
+  color: #fff;
+  font-weight: 600;
+}
+
 .search-btn { font-size: 20px; }
 
 .header-bottom { border-bottom: 1px solid hsla(0, 0%, 100%, 0.1); }
