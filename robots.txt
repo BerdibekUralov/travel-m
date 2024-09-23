@@ -1,0 +1,19 @@
+# Разрешить всем роботам доступ ко всем страницам
+User-agent: *
+Disallow:
+
+# Закрыть доступ к административной панели
+User-agent: *
+Disallow: /admin/
+
+# Разрешить индексировать только определённые страницы (например, туры)
+User-agent: *
+Allow: /tours/
+Allow: /services/
+
+# Закрыть доступ к некоторым файлам
+Disallow: /login/
+Disallow: /register/
+
+# Путь к карте сайта
+Sitemap: https://ваш_сайт/sitemap.xml
